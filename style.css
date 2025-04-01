@@ -1,0 +1,33 @@
+/* Body styling to center everything */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f7ecec;
+}
+
+/* Social media link container */
+.social-media-links {
+    text-align: center;
+}
+
+/* Style each link */
+.social-media-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-size: 2.5em; /* Adjust the size of the icons */
+}
+
+/* Hover effect for the links */
+.social-media-links a:hover {
+    color: #0073e6; /* Change the color on hover */
+}
+
+/* Transition effect for smooth hover */
+.social-media-links i {
+    transition: color 0.3s ease;
+}
