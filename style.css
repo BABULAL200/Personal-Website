@@ -1,33 +1,164 @@
-/* Body styling to center everything */
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f7ecec;
+    background: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-/* Social media link container */
-.social-media-links {
+.profile-container {
+    background: white;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+}
+
+h1 {
+    color: #333;
+    margin: 10px 0;
+}
+
+p {
+    color: #777;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #007bff;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0056b3;
+    transform: scale(1.2);
+}
+
+.link-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: none;
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.link-btn i {
+    font-size: 20px;
+}
+
+.link-btn:hover {
+    background: #0056b3;
+    transform: scale(1.05);
+}
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
     text-align: center;
 }
 
-/* Style each link */
-.social-media-links a {
-    margin: 0 15px;
-    text-decoration: none;
+.profile-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 22px;
     color: #333;
-    font-size: 2.5em; /* Adjust the size of the icons */
 }
 
-/* Hover effect for the links */
-.social-media-links a:hover {
-    color: #0073e6; /* Change the color on hover */
+p {
+    color: #666;
+    margin-bottom: 15px;
 }
 
-/* Transition effect for smooth hover */
-.social-media-links i {
-    transition: color 0.3s ease;
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #0073ff;
+}
+
+.link-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 12px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.link-btn:hover {
+    background: #e8e8e8;
+    transform: scale(1.05);
 }
